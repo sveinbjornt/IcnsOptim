@@ -3,20 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		F491A6FD2DE1523C0097B4C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491A6FB2DE1523C0097B4C7 /* MainMenu.xib */; };
+		F491A6FE2DE1523C0097B4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F491A6F52DE1523C0097B4C7 /* AppDelegate.m */; };
+		F491A6FF2DE1523C0097B4C7 /* IcnsOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F491A6F82DE1523C0097B4C7 /* IcnsOptimizer.m */; };
+		F491A7002DE1523C0097B4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F491A6F92DE1523C0097B4C7 /* main.m */; };
+		F491A7042DE1ED700097B4C7 /* createicns in Resources */ = {isa = PBXBuildFile; fileRef = F491A7022DE1ED700097B4C7 /* createicns */; };
+		F491A7052DE1ED700097B4C7 /* oxipng in Resources */ = {isa = PBXBuildFile; fileRef = F491A7032DE1ED700097B4C7 /* oxipng */; };
+		F491A70A2DE21E970097B4C7 /* icnsoptim.sh in Resources */ = {isa = PBXBuildFile; fileRef = F491A7082DE21A010097B4C7 /* icnsoptim.sh */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F491A6DD2DE150B80097B4C7 /* IcnsOptim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IcnsOptim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F491A6F42DE1523C0097B4C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F491A6F52DE1523C0097B4C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F491A6F62DE1523C0097B4C7 /* IcnsOptim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IcnsOptim.entitlements; sourceTree = "<group>"; };
+		F491A6F72DE1523C0097B4C7 /* IcnsOptimizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IcnsOptimizer.h; sourceTree = "<group>"; };
+		F491A6F82DE1523C0097B4C7 /* IcnsOptimizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IcnsOptimizer.m; sourceTree = "<group>"; };
+		F491A6F92DE1523C0097B4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F491A6FA2DE1523C0097B4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F491A7012DE1526C0097B4C7 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F491A7022DE1ED700097B4C7 /* createicns */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = createicns; sourceTree = "<group>"; };
+		F491A7032DE1ED700097B4C7 /* oxipng */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = oxipng; sourceTree = "<group>"; };
+		F491A7082DE21A010097B4C7 /* icnsoptim.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = icnsoptim.sh; sourceTree = "<group>"; };
+		F491A7092DE21E5D0097B4C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F491A70B2DE220770097B4C7 /* macos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = macos.yml; sourceTree = "<group>"; };
+		F491A70D2DE220770097B4C7 /* FUNDING.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
+		F491A70F2DE2207D0097B4C7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F491A7102DE2212C0097B4C7 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F491A6DF2DE150B80097B4C7 /* IcnsOptim */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IcnsOptim;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F491A6DA2DE150B80097B4C7 /* Frameworks */ = {
@@ -32,7 +50,14 @@
 		F491A6D42DE150B70097B4C7 = {
 			isa = PBXGroup;
 			children = (
-				F491A6DF2DE150B80097B4C7 /* IcnsOptim */,
+				F491A70E2DE220770097B4C7 /* .github */,
+				F491A70F2DE2207D0097B4C7 /* .gitignore */,
+				F491A7092DE21E5D0097B4C7 /* README.md */,
+				F491A7082DE21A010097B4C7 /* icnsoptim.sh */,
+				F491A7022DE1ED700097B4C7 /* createicns */,
+				F491A7032DE1ED700097B4C7 /* oxipng */,
+				F491A7102DE2212C0097B4C7 /* Makefile */,
+				F491A6FC2DE1523C0097B4C7 /* IcnsOptim */,
 				F491A6DE2DE150B80097B4C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +68,38 @@
 				F491A6DD2DE150B80097B4C7 /* IcnsOptim.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F491A6FC2DE1523C0097B4C7 /* IcnsOptim */ = {
+			isa = PBXGroup;
+			children = (
+				F491A6F92DE1523C0097B4C7 /* main.m */,
+				F491A7012DE1526C0097B4C7 /* Common.h */,
+				F491A6F42DE1523C0097B4C7 /* AppDelegate.h */,
+				F491A6F52DE1523C0097B4C7 /* AppDelegate.m */,
+				F491A6F72DE1523C0097B4C7 /* IcnsOptimizer.h */,
+				F491A6F82DE1523C0097B4C7 /* IcnsOptimizer.m */,
+				F491A6F62DE1523C0097B4C7 /* IcnsOptim.entitlements */,
+				F491A6FB2DE1523C0097B4C7 /* MainMenu.xib */,
+			);
+			path = IcnsOptim;
+			sourceTree = "<group>";
+		};
+		F491A70C2DE220770097B4C7 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				F491A70B2DE220770097B4C7 /* macos.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		F491A70E2DE220770097B4C7 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				F491A70C2DE220770097B4C7 /* workflows */,
+				F491A70D2DE220770097B4C7 /* FUNDING.yml */,
+			);
+			path = .github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +116,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F491A6DF2DE150B80097B4C7 /* IcnsOptim */,
 			);
 			name = IcnsOptim;
 			packageProductDependencies = (
@@ -85,6 +139,7 @@
 				};
 			};
 			buildConfigurationList = F491A6D82DE150B70097B4C7 /* Build configuration list for PBXProject "IcnsOptim" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,7 +148,6 @@
 			);
 			mainGroup = F491A6D42DE150B70097B4C7;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = F491A6DE2DE150B80097B4C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -108,6 +162,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F491A7042DE1ED700097B4C7 /* createicns in Resources */,
+				F491A7052DE1ED700097B4C7 /* oxipng in Resources */,
+				F491A6FD2DE1523C0097B4C7 /* MainMenu.xib in Resources */,
+				F491A70A2DE21E970097B4C7 /* icnsoptim.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,10 +176,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F491A6FE2DE1523C0097B4C7 /* AppDelegate.m in Sources */,
+				F491A6FF2DE1523C0097B4C7 /* IcnsOptimizer.m in Sources */,
+				F491A7002DE1523C0097B4C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F491A6FB2DE1523C0097B4C7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F491A6FA2DE1523C0097B4C7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F491A6EB2DE150C00097B4C7 /* Debug */ = {
@@ -244,14 +316,16 @@
 		F491A6EE2DE150C00097B4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IcnsOptim/IcnsOptim.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5WX26Y89JP;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 5WX26Y89JP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
@@ -260,9 +334,11 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.IcnsOptim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -271,14 +347,16 @@
 		F491A6EF2DE150C00097B4C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IcnsOptim/IcnsOptim.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5WX26Y89JP;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 5WX26Y89JP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
@@ -287,9 +365,11 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.IcnsOptim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};

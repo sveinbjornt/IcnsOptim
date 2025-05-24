@@ -7,6 +7,8 @@
 
 #import "AppDelegate.h"
 
+#import "IcnsOptimizer.h"
+
 @interface AppDelegate ()
 
 @property (strong) IBOutlet NSWindow *window;
@@ -16,6 +18,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    IcnsOptimizer *opt = [[IcnsOptimizer alloc] initWithIcnsPath:@"/Users/sveinbjorn/diskimage.icns"];
+    [opt optimizeIcon];
 }
 
 
